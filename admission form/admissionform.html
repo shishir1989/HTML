@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Admission form</title>
+	
+</head>
+<body>
+	<center>
+		<img src="logo.png" width="200" height="75"><br>
+		<p>G.P.O box:9809,Khusibu,Nayabazzar,Kathmandu,Nepal<br>
+			contact no:4361600,4370072 Email:info@prime.edu.np Website:www.prime.edu.np
+		</p>
+	</center>
+
+	<h3><label for ="faculty">Choose the faculty:</label></h3>
+	<select id="Faculty">
+		<option value="FAculty">BBA</option>
+		<option value="FAculty">BBS</option>
+		<option value="FAculty">BIM</option>
+		<option value="FAculty">BCA</option>
+		<option value="FAculty" selected>BScCSIT</option> 
+	</select>
+<p style="text-align: right;">Date:<input type="date"></p>
+	<h2 style="text-align: center;">Admission form</h2>
+	<fieldset>
+		<legend><b>Student's Profile</b></legend>
+	    Recent Year PP size Photo:<input type="file" name="photo"><br><br>
+		Student's Name:<input type="text" name="Full Name" size="120" placeholder="                         
+
+		      IN    BLOCK   LETTER"><br><br>
+		Date of Birth according to SEE or equivalent:<br>
+		<fieldset>
+			In BS:<input type="text" name="Date" size="10" placeholder="DD/MM/YYYY">&nbsp;
+			In AD:<input type="text" name="english" size="10" placeholder="DD/MM/YYYY"><br><br>
+			Place of Birth:&nbsp;Province:<input type="text" name="province">
+			District:<input type="text" name="birth place">
+			Village/City:<input type="text" name="village">
+</fieldset>
+Gender:<input type="checkbox" name="gender" value="Male">Male &nbsp;
+	<input type="checkbox" name="gender" value="Female">Female&nbsp;
+	<input type="checkbox" name="gender" value="others">others 
+</fieldset>
+<fieldset>
+	<legend><b>Preasent Address</b></legend>
+	Tole(street)/ Ward No.<input type="text" name="Address" size="100"><br><br>
+	Metropolis/Municipality:<input type="text" name="Municipality">&nbsp;
+	Province:<input type="text" name="liv province">
+	Disrict:<input type="text" name="liv District"><br><br>
+	Telephone:<input type="text" name="Telephone">
+	Cell:<input type="text" name="Cell">
+	Email:<input type="text" name="email" size="50">
+</fieldset>
+<fieldset><legend><b>Parent's Details</b></legend>
+Father's Name:<input type="text" name="father" size="50">Nationality:<input type="text" name="nationality" size="10">Educational Status:<input type="text" name="status" size="10"><br><br>
+Employer(organization):<input type="text" name="Employee" size="50">
+occupation:<input type="text" name="occupation" size="30"><br><br>
+Business Address:<input type="text" name="business" size="120:"><br><br>
+Telephone:<input type="text" name="Telephone">
+	Cell:<input type="text" name="Cell">
+	Email:<input type="text" name="email" size="50"><br><br>
+	Mother's Name:<input type="text" name="Mother" size="50">Nationality:<input type="text" name="nationality" size="10">Educational Status:<input type="text" name="status" size="10"><br><br>
+Employer(organization):<input type="text" name="Employee" size="50">
+occupation:<input type="text" name="occupation" size="30"><br><br>
+Business Address:<input type="text" name="business" size="120:"><br><br>
+Telephone:<input type="text" name="Telephone">
+	Cell:<input type="text" name="Cell">
+	Email:<input type="text" name="email" size="50"><br><br>
+	Local Gurdain's Name:<input type="text" name="father" size="50">
+	Relation:<input type="text" name="nationality" size="10">
+	Telephone:<input type="text" name="Telephone" size="15"><br><br>
+	Local's Gurdain's Address:<input type="text" name="gurdian" size="100">
+</fieldset>
+<h3>Educational Information</h3>
+<p>List all School College attendeed. Require official Copies of Marksheets and Character Certificate.</p>
+<table border="1" width="100%" align="center" cellspacing="0" cellpadding="2">
+	<tr>
+		<th>Level</th>
+		<th>Stream</th>
+		<th>Board</th>
+		<th>School/College</th>
+		<th>Grade</th>
+		<th>CGPA</th>
+		<th>Year</th>
+	</tr>
+	<tr>
+		<td>SEE or Equivalent</td>
+		<td><input type="text" ></td>
+		<td><input type="text" ></td>
+		<td><input type="text"></td>
+		<td><input type="Text"  ></td>
+		<td><input type="Text" ></td>
+		<td><input type="number"></td>
+	</tr>
+	<tr>
+		<td>+2 Level or Equivalent</td>
+		<td><input type="text" ></td>
+		<td><input type="text"></td>
+		<td><input type="text"></td><td><input type="Text" maxlength="2" /></td><td><input type="Text" maxlength="4" /></td><td><input type="number"></td>
+	</tr>
+	
+</table><br><br>
+How did you find out Prime College and its Educational Programs? 
+<br><textarea rows="5" cols="50" name="description"> </textarea><br><br>
+<h3> PERSONAL STATEMENTS</h3>
+Please write why you decided to choose Prime & this course. <br>
+<textarea rows="5" cols="50" name="description"> </textarea> <br><br>
+Please write about yourself and give details of your personal achievements and interests. <br>
+<textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+List your career objectives. <br>
+<textarea rows="5" cols="50" name="description"> </textarea> <br> <br>
+Do you have any learning or other difficulties that require extra support? <br>
+<textarea rows="5" cols="50" name="description"> </textarea><br> <br>
+<h3> STUDENT DECLERATION </h3>
+<input type="checkbox"> I hearby declare that I have read all the instructions provided by the college & thatthe information provided by me is true andcomplete in every aspect. I understand that it is my responsibility to provide all necessary documents tosupplement my application. <br> <br>
+<input type="checkbox"> I also acknowledge that the College Management reserves all the right regarding myadmission. I have read and understood the College Rulesand Regulations as stated in the prospectus/students handbook and the conditions thereof. I promise to be abideby the said rules and regulationsof the institution. <br> <br>
+Signature of Student: <input type="file" name="file" /> <br> <br>
+Remarks <br><textarea rows="5" cols="50" name="description"> </textarea> <br> <br> <br>
+<button type="Submit">SUBMIT</button> 
+<button type="reset"> Clear Form </button>
+</form> <br> <br> <br>
+<footer align="center">&copy; 2022 @Shishir Timalsina, Prime Educational Inc.</footer>
+
+</body>
+</html>
